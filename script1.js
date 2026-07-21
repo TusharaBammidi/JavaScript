@@ -180,9 +180,9 @@ let student = {
     passed: "true"
 };
 
-console.log("Student Name :", student.name);
-console.log("Course :", student.course);
-console.log("Passed :", student.passed);
+console.log("Student Name :", student.name); //Rahul
+console.log("Course :", student.course); //B.Tech
+console.log("Passed :", student.passed); //true
 
 
 // =====================
@@ -191,10 +191,10 @@ console.log("Passed :", student.passed);
 
 let cart=["Milk","Rice","Oil","Sugar","Soap"];
 
-console.log("First product :",cart[0]);
-console.log("Third product :",cart[2]);
-console.log("Last product :",cart[cart.length-1]);
-console.log("Total products :",cart.length);
+console.log("First product :",cart[0]); //Milk
+console.log("Third product :",cart[2]);//Oil
+console.log("Last product :",cart[cart.length-1]);//Soap
+console.log("Total products :",cart.length); //5
 
 // =====================
 // Task 4 - Company Employee Database
@@ -207,9 +207,9 @@ let EmployeeDetails={
     skills:["HTML","CSS","JavaScript","Python","SQL"]
 }
 
-console.log("Employee name :",EmployeeDetails.name);
-console.log("Designation :",EmployeeDetails.designation);
-console.log("Skills :",EmployeeDetails.skills[1]);
+console.log("Employee name :",EmployeeDetails.name); //Tushara
+console.log("Designation :",EmployeeDetails.designation); //Frontend
+console.log("Skills :",EmployeeDetails.skills[1]); //CSS
 
 
 // =====================
@@ -219,9 +219,9 @@ console.log("Skills :",EmployeeDetails.skills[1]);
 let Basic_Salary = 25000;
 let Bonus = 5000;
 
-let total_salary = Basic_Salary + Bonus
+let total_salary = Basic_Salary + Bonus // 30000
 
-console.log("Total Salary Expected :",total_salary);
+console.log("Total Salary Expected :",total_salary); //30000
 
 
 // =====================
@@ -231,8 +231,8 @@ console.log("Total Salary Expected :",total_salary);
 let product_price = 4500;
 let gst=18;
 
-let gst_amount = (product_price*gst/100);
-let final_amount = product_price + gst_amount
+let gst_amount = (product_price*gst/100); // 810
+let final_amount = product_price + gst_amount //5310
 
 console.log("GST Amount :",gst_amount);
 console.log("Final Amount :",final_amount);
@@ -245,7 +245,7 @@ console.log("Final Amount :",final_amount);
 
 let a = 25;
 
-a % 2 === 0? console.log("Even"): console.log("Odd");
+a % 2 === 0? console.log("Even"): console.log("Odd"); // odd
 
 
 // =====================
@@ -256,7 +256,7 @@ let Username = "admin";
 let Password = 12345;
 
 Username == "admin" && Password == 12345 ? console.log("Login Success"): console.log("Invalid Credentials");
-;
+//Login success
 
 
 // =====================
@@ -266,7 +266,7 @@ Username == "admin" && Password == 12345 ? console.log("Login Success"): console
 let Age = 22;
 
 Age == 22? console.log("Eligible for Vote"): console.log("Not Eligible");
-;
+// Eligible for Vote
 
 // =====================
 // Task 10 - EMI Eligibility
@@ -277,7 +277,7 @@ let Salary = 40000;
 let Experience = 3;
 
 Salary > 30000 && Experience >=2? console.log("Eligible"): console.log("Not Eligible");
-;
+// Eligible
 
 // =====================
 // Task 11 - Product Discount
@@ -287,8 +287,8 @@ Salary > 30000 && Experience >=2? console.log("Eligible"): console.log("Not Elig
 let Price = 5000;
 let Discount = 10;
 
-let discount_amount = (Price*Discount)/100;
-let final_price = Price - discount_amount;
+let discount_amount = (Price*Discount)/100; // 500
+let final_price = Price - discount_amount; // 4500
 
 console.log("Discount Amount :",discount_amount);
 console.log("Final Price :",final_price);
@@ -306,10 +306,10 @@ let City = "Hyderabad";
 
 
 console.log("----- User Details-----");
-console.log("Name :",Name);
-console.log("Email :",Email);
-console.log("Phone :",Phone);
-console.log("City :",City);
+console.log("Name :",Name); // Sowmya
+console.log("Email :",Email); //sowmya1234@gmail.com
+console.log("Phone :",Phone); //7639093867
+console.log("City :",City); // Hyderabad
 
 
 // =====================
@@ -324,9 +324,9 @@ let profile_details = {
     Verified : "Verified"
 }
 
-console.log("Username :",profile_details.Username);
-console.log("Followers :",profile_details.Followers);
-console.log("Verified Status :",profile_details.Verified);
+console.log("Username :",profile_details.Username); //Samuel
+console.log("Followers :",profile_details.Followers); //23000
+console.log("Verified Status :",profile_details.Verified); //Verified
 
 
 
@@ -337,9 +337,9 @@ console.log("Verified Status :",profile_details.Verified);
 
 let menu=["Idli","Dosa","Poori","Meals","Parotta"];
 
-console.log("Second Item :",menu[1]);
-console.log("Fourth Item :",menu[3]);
-console.log("Last Item :",menu[menu.length-1]);
+console.log("Second Item :",menu[1]); //Dosa
+console.log("Fourth Item :",menu[3]); //Meals
+console.log("Last Item :",menu[menu.length-1]); //Parotta
 
 
 
@@ -350,7 +350,7 @@ console.log("Last Item :",menu[menu.length-1]);
 let Account_Balance = 25000;
 let Withdraw = 8000;
 
-let remaining_balance = Account_Balance - Withdraw;
+let remaining_balance = Account_Balance - Withdraw; //17000
 
 console.log("Remaining Balance :",remaining_balance);
 
@@ -364,7 +364,7 @@ let Mobile_Price = 25000;
 let Exchange = 5000;
 let Coupon = 2000;
 
-let finalAmount = Mobile_Price - (Exchange + Coupon);
+let finalAmount = Mobile_Price - (Exchange + Coupon); //18000
 
 console.log("Final Amount :",finalAmount);
 
@@ -377,7 +377,7 @@ let experience = 5;
 let performance = "true";
 
 experience >=5 && performance == "true" ? console.log("Promotion Approved"): console.log("Promotion Pending");
-
+//Promotion Approved
 
 
 // =====================
@@ -387,7 +387,7 @@ experience >=5 && performance == "true" ? console.log("Promotion Approved"): con
 let Ticket_Price = 180;
 let People = 5;
 
-let total_amount = Ticket_Price * People;
+let total_amount = Ticket_Price * People; //900
 
 console.log("Total Amount :",total_amount);
 
@@ -399,7 +399,7 @@ console.log("Total Amount :",total_amount);
  let Temperature = 38;
 
  Temperature >= 38 ? console.log("Hot Day"): console.log("Normal Weather");
- ;
+ //Hot Day
  
 // =====================
 // Task 20 - Mini HR Management (Real-Time)
@@ -415,12 +415,12 @@ let employee = {
     permanent: true
 }
 
-console.log("Employee Code :",employee.empCode);
-console.log("Employee Name :",employee.name);
-console.log("Department :",employee.department);
-console.log("Salary :",employee.salary);
-console.log("Last Skill :",employee.skills[employee.skills.length-1]);
-console.log("Permanent Status :",employee.permanent);
+console.log("Employee Code :",employee.empCode); //EMP1001
+console.log("Employee Name :",employee.name); //Rahul
+console.log("Department :",employee.department); //Frontend
+console.log("Salary :",employee.salary); //28000
+console.log("Last Skill :",employee.skills[employee.skills.length-1]); //React
+console.log("Permanent Status :",employee.permanent); //true
 
 
 
